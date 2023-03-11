@@ -12,7 +12,6 @@ import { useState } from "react";
 export default function Header() {
   return (
     <div className="Header">
-      
       <div className="top">
         <div className="top-nav">
           <a href="#" className="item">
