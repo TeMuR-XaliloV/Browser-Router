@@ -64,6 +64,10 @@ export default function Home() {
     evt.preventDefault();
     console.log('Murojatingiz Yuborildi');
   }
+  // const likeBtn = document.querySelector("#like-btn")
+  // likeBtn.addEventListener('click', (e) => {
+  //   likeBtn.classList.toggle('like-active')
+  // })
   return (
     <div className="Home">
       <Modal className="show-modal" isOpen={modalIsOpen}>
